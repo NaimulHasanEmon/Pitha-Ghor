@@ -1,7 +1,7 @@
 body{
     margin: 0;
-    background-image: url('../Images/Black-&-White-Table.jpg');
-    backdrop-filter: blur(5px);
+    background-image: url('../Images/table-background-i5wagxm5xfb3jszn.jpeg');
+    background-size: cover;
 }
 table{
     border-collapse: collapse;
@@ -18,5 +18,9 @@ header > p{
     padding: 70px;
     font-size: 30px;
     font-family: cursive;
+    text-align: center;
+}
+footer > small > p{
+    margin-top: 50px;
     text-align: center;
 }
