@@ -19,3 +19,16 @@ img{
 main > form > input{
     margin-top: 10px;
 }
+main > p{
+    text-align: center;
+}
+main > p > a{
+    color: rgb(224, 36, 36);
+    text-decoration: none;
+}
+main > p > a:hover{
+    background-color: rgb(160, 235, 235);
+}
+footer > small > p{
+    text-align: center;
+}

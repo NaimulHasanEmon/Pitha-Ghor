@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-image: url('/Images/BW\ Table.jpg');
+    backdrop-filter: blur(5px);
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+}
+td, th{
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+header > p{
+    margin: 0;
+    padding: 70px;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
