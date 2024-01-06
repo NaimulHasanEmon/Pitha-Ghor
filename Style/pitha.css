@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(232, 235, 229);
+}
+header > p{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+img{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+main > form > input{
+    margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: aliceblue;
+}
+nav > ul > li{
+    display: inline;
+    margin-right: 20px;
+}
+nav li > a{
+    text-decoration: none;
+}
+footer > small > p{
+    margin-top: 30px;
+    color: rgb(5, 163, 139);
+    text-align: center;
+}
+footer > p > a{
+    color: black;
+}
+footer a{
+    text-decoration: none;
+}
+img{
+    width: 400px;
+    display: block;
+}
