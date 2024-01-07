@@ -1,15 +1,19 @@
 body{
-    margin: 0;
     background-image: url('../Images/table-background-i5wagxm5xfb3jszn.jpeg');
     background-size: cover;
+}
+nav > ul > li{
+    display: inline;
+    margin-right: 20px;
+}
+nav li > a, footer a{
+    text-decoration: none;
 }
 table{
     border-collapse: collapse;
 }
-th{
-    text-align: left;
-}
 td, th{
+    text-align: left;
     padding: 5px 10px;
     border: 1px solid black;
 }
@@ -23,4 +27,7 @@ header > p{
 footer > small > p{
     margin-top: 50px;
     text-align: center;
+}
+body > header > nav {
+    background-color: black
 }

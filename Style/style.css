@@ -10,7 +10,7 @@ nav > ul > li{
     display: inline;
     margin-right: 20px;
 }
-nav li > a{
+nav li > a, footer a{
     text-decoration: none;
 }
 footer > small > p{
@@ -21,10 +21,7 @@ footer > p > a{
     color: rgb(224, 36, 36);
 }
 footer > p > a:hover{
-    background-color: rgb(160, 235, 235);
-}
-footer a{
-    text-decoration: none;
+    background-color: rgb(203, 200, 200);
 }
 img{
     width: 400px;
@@ -35,5 +32,8 @@ article > section > p > a{
     color: rgb(224, 36, 36);
 }
 article > section > p > a:hover{
-    background-color: rgb(160, 235, 235);
+    background-color: rgb(203, 200, 200);
+}
+body > header > nav {
+    background-color: black;
 }

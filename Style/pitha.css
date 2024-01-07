@@ -1,6 +1,13 @@
 body{
     background-color: rgb(246, 238, 238);
 }
+nav > ul > li{
+    display: inline;
+    margin-right: 20px;
+}
+nav li > a, footer a{
+    text-decoration: none;
+}
 header > p{
     text-align: center;
     font-size: 40px;
@@ -27,8 +34,11 @@ main > p > a{
     text-decoration: none;
 }
 main > p > a:hover{
-    background-color: rgb(160, 235, 235);
+    background-color: rgb(203, 200, 200);
 }
 footer > small > p{
     text-align: center;
+}
+body > header > nav > ul {
+    background-color: black
 }
